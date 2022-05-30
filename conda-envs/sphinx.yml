@@ -1,0 +1,17 @@
+name: sphinx
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - myst-parser
+  - pydata-sphinx-theme
+  - sphinx-book-theme
+  - sphinxcontrib-bibtex
+  - vtk
+  - pip>=20.1
+  - pip:
+    - sphinxcontrib-tikz
+    - numpy
+    - matplotlib
+    - pandas
+    - scipy
